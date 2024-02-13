@@ -1,0 +1,47 @@
+#body-index {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/img/mapaDRC.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+}
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco traslúcido */
+    padding: 60px; /* Aumentamos el padding */
+    border-radius: 20px; /* Mayor radio para los bordes */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Sombra más pronunciada */
+}
+#container h1 {
+    color: #000000; /* Negro */
+    margin-bottom: 20px;
+}
+#container button {
+    margin: 10px auto; /* Margen automático para centrar horizontalmente */
+    padding: 15px 40px; /* Aumentamos el padding vertical y horizontal */
+   
+    font-size: 18px;
+    border: 2px solid #a93226; /* Borde rojo */
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente */
+    color: #a93226; /* Rojo */
+    display: block; /* Mostrar como bloque */
+    width:20rem ; /* Ancho automático para adaptarse al contenido */
+    transition: background-color 0.3s ease;
+}
+#container button:hover {
+    background-color: rgba(169, 50, 38, 0.1); /* Rojo traslúcido en hover */
+}
