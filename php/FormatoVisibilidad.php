@@ -10,34 +10,28 @@
     {
         // Logo
         $this->Image('../img/logo-consejo-danes.jpg',152,8,33);
-        $this->Image('../img/mapaDRC.jpg',65,10,80);
+        $this->Image('../img/mapaDRC.jpg',65,8,80);
 
         // Arial bold 15
         $this->SetFont('Arial','B',7);
+        $this->Ln(9);
         // Movernos a la derecha
-        $this->Cell(40);
-        // Salto de línea
-        $this->Ln(3);
-        // Direccion
-        $this->Cell(90,10,utf8_decode('Consejo Dánes para Refugiados'),0,0,'L');
-        // Salto de línea
-        $this->Ln(4);
-        $this->Cell(90,10,utf8_decode('Calle 70 A #7-95'),0,0,'L');
-        // Salto de línea
-        $this->Ln(4);
-        $this->Cell(90,10,utf8_decode('110231, Bogotá'),0,0,'L');
-        // Salto de línea
-        $this->Ln(4);
-        $this->Cell(90,10,utf8_decode('Colombia'),0,0,'L');
-
-        // Arial bold 15
+        $this->Cell(69);
+        $this->Cell(60,6,utf8_decode('Consejo Dánes para Refugiados'),0,0,'L');
         $this->SetFont('Arial','B',9);
-        // Movernos a la derecha
-        $this->Cell(10);
-        // Título
-        $this->Cell(90,10,'San Jose del Fragua, 17 enero. de 2024',0,0,'L');
-        // Salto de línea
-        $this->Ln(20);
+        $this->Ln(2);
+        $this->Cell(69,6,'San Jose del Fragua, 17 enero. de 2024',0,0,'L');
+        $this->SetFont('Arial','',7);
+        $this->Cell(90,10,utf8_decode('Calle 70 A #7-95'),0,0,'L');
+        $this->Ln(4);
+        $this->Cell(69);
+        $this->Cell(90,10,utf8_decode('110231, Bogotá'),0,0,'L');
+        $this->Ln(4);
+        $this->Cell(69);
+        $this->Cell(90,10,utf8_decode('Colombia'),0,0,'L');
+        $this->Ln(8);
+
+        
     }
 
     // Pie de página
