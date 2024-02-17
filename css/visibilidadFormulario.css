@@ -1,4 +1,4 @@
-#body-index {
+#body-EleVarios {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -24,24 +24,52 @@
     border-radius: 20px; /* Mayor radio para los bordes */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Sombra más pronunciada */
 }
-#container h1 {
-    color: #000000; /* Negro */
+
+#data-form {
+    text-align: left;
     margin-bottom: 20px;
 }
-#container button {
-    margin: 10px auto; /* Margen automático para centrar horizontalmente */
+.input-wrapper {
+    display: inline-block;
+    width: 48%; /* Ancho reducido para dejar espacio entre los elementos */
+}
+.input-wrapper label {
+    font-weight: normal; /* Quitar negrita */
+}
+.input-wrapper input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+#agregar,
+#generar-pdf {
+    margin: 10px;
     padding: 15px 40px; /* Aumentamos el padding vertical y horizontal */
-   
     font-size: 18px;
     border: 2px solid #a93226; /* Borde rojo */
     border-radius: 5px;
     cursor: pointer;
     background-color: transparent; /* Fondo transparente */
     color: #a93226; /* Rojo */
-    display: block; /* Mostrar como bloque */
-    width:20rem ; /* Ancho automático para adaptarse al contenido */
+    display: inline-block;
+    width: 48%; /* Ancho reducido */
     transition: background-color 0.3s ease;
 }
-#container button:hover {
-    background-color: rgba(169, 50, 38, 0.1); /* Rojo traslúcido en hover */
+#generar-pdf:hover,
+#agregar:hover {
+    background-color: rgba(169, 50, 38, 0.1); /* Rojo suave en hover */
+}
+#generar-pdf {
+    margin-top: 20px;
+}
+#cantidad-agregada {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
 }
