@@ -10,8 +10,8 @@
     <img id="logo" src="img/logo-consejo-danes.jpg" alt="Logo Consejo Danés para Refugiados">
     <div id="container">
         <h1>¿Qué formato desea generar?</h1>
-        <button>Formato de visibilidad</button>
-        <button>Formato de elementos varios</button>
+        <a class="button" href="paginas/visibilidadFormulario.php">Formato de visibilidad</a>
+        <a class="button" href="paginas/ElemenVariosFormulario.php">Formato de elementos varios</button>
     </div>
 </body>
 </html>

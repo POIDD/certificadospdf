@@ -10,6 +10,7 @@
     <img id="logo" src="../img/logo-consejo-danes.jpg" alt="Logo Consejo Danés para Refugiados">
     <div id="container">
         <h2>Ingresa los datos de las prendas a entregar</h2>
+
         <form id="data-form">
             <div class="flex-container">
                 <div class="input-wrapper">
@@ -32,6 +33,7 @@
                 </div>
             </div>
         </form>
+        
         <button id="agregar">Agregar otra Descripción/Talla</button>
         <button id="generar-pdf">Generar PDF</button>
         <div id="cantidad-agregada">Cantidad de productos agregados: <span id="cantidad-numero">0</span></div>
